@@ -3,12 +3,6 @@
         li {
             .product_item--inner{
                 padding-bottom: 20px;
-                .product_item--thumbnail{
-                    img{
-                        height: 350px;
-                        object-fit: cover;
-                    }
-                }
                 .product_item--title{
                     font-size: 16px;
                 }
@@ -74,7 +68,7 @@ box-shadow: 3px 6px 20px -11px rgba(0,0,0,0.75);
     order: 1;
     text-align: center;
     font-style: normal;
-    height: 87px;
+    min-height: 225px;
     text-overflow: ellipsis;
     overflow: hidden;
     font-size: var(--e-global-typography-text-font-size);
