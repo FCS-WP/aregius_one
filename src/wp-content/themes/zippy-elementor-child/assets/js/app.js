@@ -29,7 +29,8 @@ $('#section-review .lakit-testimonials__item .lakit-testimonials__content .lakit
 
 // change product image on variation selection
 
-$("body").on("change", "#single-product .variations select", function(e){
+$("body")
+.on("change", "#single-product .variations select", function(e){
   let _value = $(this).val();
   $(product_variations).each(function(index, variation) {
     let variation_name = variation.name;
@@ -41,4 +42,11 @@ $("body").on("change", "#single-product .variations select", function(e){
       })
     }
   })
+  console.log($(".woobt-wrap.woobt-layout-default.woobt-wrap-responsive").is(":empty"));
+  
+  if($(".woobt-wrap.woobt-layout-default.woobt-wrap-responsive").is(":empty") == true){
+    $(".tp-product-price").css("display", "block")
+  }
 })
+
+

@@ -53,4 +53,16 @@
         text-align: right;
         font-weight: bold;
     }
+    .woobt-additional{
+        display: none !important;
+    }
 } 
+
+.tp-product-price{
+    display: none;
+    .price{
+        &:before{
+            content: 'Total Price: ';
+        }
+    }
+}
