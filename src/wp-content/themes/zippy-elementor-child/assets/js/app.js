@@ -42,11 +42,14 @@ $("body")
       })
     }
   })
-  console.log($(".woobt-wrap.woobt-layout-default.woobt-wrap-responsive").is(":empty"));
-  
-  if($(".woobt-wrap.woobt-layout-default.woobt-wrap-responsive").is(":empty") == true){
-    $(".tp-product-price").css("display", "block")
-  }
+  $(".tp-product-price").css("display", "block")
+})
+.on("change", "#single-product .woobt-choose input", function(e){
+  setTimeout(() => {
+    let total_price_html = $(".woobt-summary .woobt-total .woocommerce-Price-amount.amount").html();
+    $(".tp-product-price .price").html(total_price_html);
+  }, 200);
+  $(".tp-product-price").css("display", "block");
 })
 
 
