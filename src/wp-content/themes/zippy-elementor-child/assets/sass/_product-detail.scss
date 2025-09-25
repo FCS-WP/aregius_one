@@ -42,3 +42,30 @@
     }
     
 }
+#single-product{
+    .woocommerce-variation-price{
+        display: none;
+    }
+    .single_variation_wrap{
+        padding-top: 20px;
+    }
+    .woobt-summary{
+        text-align: right;
+        font-weight: bold;
+    }
+    .woobt-additional{
+        display: none !important;
+    }
+    .woobt-summary{
+        display: none;    
+    }
+} 
+
+.tp-product-price{
+    display: none;
+    .price{
+        &:before{
+            content: 'Total Price: ';
+        }
+    }
+}

@@ -1,4 +1,4 @@
-FROM wordpress:6.3
+FROM wordpress:6.6
 
 COPY ./src/.htaccess /var/www/html/.htaccess
 COPY ./src/wp-content/themes /var/www/html/wp-content/themes
