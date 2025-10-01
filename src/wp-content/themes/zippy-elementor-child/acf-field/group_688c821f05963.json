@@ -1,13 +1,13 @@
 {
-    "key": "group_643bab44bf885",
-    "title": "helo",
+    "key": "group_688c821f05963",
+    "title": "Product Banner Image",
     "fields": [
         {
-            "key": "field_643bab44b3660",
-            "label": "",
-            "name": "",
+            "key": "field_688c8222379b9",
+            "label": "Product Banner Image",
+            "name": "product_banner_image",
             "aria-label": "",
-            "type": "text",
+            "type": "image",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -16,11 +16,16 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
-            "maxlength": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": ""
+            "return_format": "array",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "preview_size": "medium"
         }
     ],
     "location": [
@@ -28,7 +33,7 @@
             {
                 "param": "post_type",
                 "operator": "==",
-                "value": "post"
+                "value": "product"
             }
         ]
     ],
@@ -41,5 +46,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1681632078
+    "modified": 1754038892
 }
