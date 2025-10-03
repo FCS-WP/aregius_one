@@ -1,0 +1,17 @@
+.section_header .e-con-inner {
+    position: relative;
+
+    &:before {
+        content: "";
+        top: 50%;
+        left: 0;
+        right: 0;
+        height: 1px;
+        background: #000;
+        position: absolute;
+    }
+}
+
+.image-box img {
+    width: 100%;
+}
