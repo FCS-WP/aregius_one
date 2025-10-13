@@ -35,39 +35,13 @@ $("body")
     })
     $(".tp-product-price").css("display", "block")
   })
-  .on("change", "#single-product .woobt-choose input", function (e) {
-    setTimeout(() => {
-      let total_price_html = $(".woobt-summary .woobt-total .woocommerce-Price-amount.amount").html();
-      $(".tp-product-price .price").html(total_price_html);
-    }, 200);
-    $(".tp-product-price").css("display", "block");
-  })
-
-
-// change product image on variation selection
-
-// $("body")
-//   .on("change", "#single-product .variations select", function (e) {
-//     let _value = $(this).val();
-//     $(product_variations).each(function (index, variation) {
-//       let variation_name = variation.name;
-//       if (variation_name.indexOf(_value) > -1) {
-//         let feature_image = variation.image;
-//         $("#single-product .elementor-widget-image img").attr({
-//           src: feature_image,
-//           srcset: feature_image
-//         })
-//       }
-//     })
-//     $(".tp-product-price").css("display", "block")
-//   })
-//   .on("change", "#single-product .woobt-choose input", function (e) {
-//     setTimeout(() => {
-//       let total_price_html = $(".woobt-summary .woobt-total .woocommerce-Price-amount.amount").html();
-//       $(".tp-product-price .price").html(total_price_html);
-//     }, 200);
-//     $(".tp-product-price").css("display", "block");
-//   })
+  // .on("change", "#single-product .woobt-choose input", function (e) {
+  //   setTimeout(() => {
+  //     let total_price_html = $(".woobt-summary .woobt-total .woocommerce-Price-amount.amount").html();
+  //     $(".tp-product-price .price").html(total_price_html);
+  //   }, 200);
+  //   $(".tp-product-price").css("display", "block");
+  // })
 
 
 let all_options = {
