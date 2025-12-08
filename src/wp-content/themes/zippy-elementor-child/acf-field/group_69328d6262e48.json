@@ -61,7 +61,7 @@
                     "name": "new_order_dining_template",
                     "aria-label": "",
                     "type": "wysiwyg",
-                    "instructions": "Available variables: \r\n{customer_name}\r\n{order_detail}",
+                    "instructions": "Available variables: \r\n{customer_name}\r\n{reservation_date}\r\n{reservation_time}\r\n{number_of_pax}",
                     "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
@@ -118,7 +118,7 @@
                     "name": "new_order_workshop_template",
                     "aria-label": "",
                     "type": "wysiwyg",
-                    "instructions": "",
+                    "instructions": "Available variables: \r\n{customer_name}\r\n{workshop_details}\r\n{reservation_date}\r\n{reservation_time}\r\n{number_of_pax}\r\n{deposit_paid}",
                     "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
@@ -175,7 +175,7 @@
                     "name": "reminder_dining_template",
                     "aria-label": "",
                     "type": "wysiwyg",
-                    "instructions": "",
+                    "instructions": "Available variables: \r\n{customer_name}\r\n{reservation_date}\r\n{reservation_time}\r\n{number_of_pax}",
                     "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
@@ -232,7 +232,7 @@
                     "name": "reminder_workshop_template",
                     "aria-label": "",
                     "type": "wysiwyg",
-                    "instructions": "",
+                    "instructions": "Available variables: \r\n{customer_name}\r\n{workshop_details}\r\n{reservation_date}\r\n{reservation_time}\r\n{number_of_pax}\r\n{deposit_paid}",
                     "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
@@ -304,5 +304,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1765163279
+    "modified": 1765167465
 }
