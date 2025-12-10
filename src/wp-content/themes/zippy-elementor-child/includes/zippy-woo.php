@@ -35,3 +35,13 @@ function get_order_infos($order){
 
     return $html;
 }
+
+
+add_filter('woocommerce_email_subject_customer_on_hold_order', 'change_on_hold_email_subject', 10, 2);
+
+function change_on_hold_email_subject($subject, $order){
+    if ($order->get_meta("order_type") == "workshop") {
+        return get_email_subject($order, "new_order");
+    }
+    return $subject;
+}
