@@ -53,7 +53,7 @@ do_action( 'woocommerce_email_order_details', $order, $sent_to_admin, $plain_tex
  */
 do_action( 'woocommerce_email_order_meta', $order, $sent_to_admin, $plain_text, $email );
 
-echo get_order_infos($order);
+echo get_order_meta_infos($order);
 
 /*
  * @hooked WC_Emails::customer_details() Shows customer details
