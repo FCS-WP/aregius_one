@@ -30,7 +30,7 @@ function get_order_infos($order){
     }
 
     if(!empty($html)){
-        $html = "<h3>".__('Booking Information', 'woocommerce')."</h3> $html";
+        $html = "<h3 class='information-title'>".__('Booking Information', 'woocommerce')."</h3> $html";
     }
 
     return $html;
