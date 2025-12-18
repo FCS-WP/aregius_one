@@ -73,7 +73,7 @@ $totals = $order->get_order_item_totals(); // phpcs:ignore WordPress.WP.GlobalVa
 
 
 	<?php
-		echo get_order_infos($order);
+		echo get_order_meta_infos($order);
 	?>
 
 	<?php
